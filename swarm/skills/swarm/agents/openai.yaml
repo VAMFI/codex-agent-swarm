@@ -1,0 +1,8 @@
+interface:
+  display_name: "Swarm"
+  short_description: "Coordinate Codex subagents with a shared local board"
+  default_prompt: "Use Swarm for this task with bounded workers and independent verification."
+policy:
+  allow_implicit_invocation: false
+  products:
+    - CODEX

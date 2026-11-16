@@ -1,0 +1,20 @@
+{
+  "name": "vamfi",
+  "interface": {
+    "displayName": "VAMFI"
+  },
+  "plugins": [
+    {
+      "name": "swarm",
+      "source": {
+        "source": "local",
+        "path": "./swarm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

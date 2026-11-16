@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "swarm",
+  "version": "0.2.1",
+  "description": "Coordinate useful native Codex teams with task-aware routing, a local board, safe handoffs, and independent verification. Additional agents use quota.",
+  "keywords": [
+    "swarm",
+    "subagents",
+    "coordination",
+    "verification"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Codex Agent Swarm",
+        "shortDescription": "Coordinate Codex subagents",
+        "longDescription": "Route coding, research, writing, planning, extraction, and computer-use work to the smallest useful native team. Keep trivial/status work direct. Use explicit ownership, role-compatible reuse, a durable local board, and independent review of the current revision. Adaptive model selection is opt-in and uses advertised capabilities; user pins take precedence. Requires local Python 3 and native subagent tools. No server, scheduler, or dashboard.",
+        "category": "Developer Tools",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Use Swarm to choose the smallest useful team for this task.",
+          "Show the status of this task's Swarm board."
+        ]
+      }
+    }
+  },
+  "repository": "https://github.com/VAMFI/codex-agent-swarm",
+  "license": "MIT",
+  "author": {
+    "name": "VAMFI Inc."
+  }
+}

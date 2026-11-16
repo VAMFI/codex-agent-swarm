@@ -1,0 +1,8 @@
+interface:
+  display_name: "Swarm Status"
+  short_description: "Inspect recorded and live swarm progress"
+  default_prompt: "Show this task's existing Swarm status without changing it."
+policy:
+  allow_implicit_invocation: false
+  products:
+    - CODEX
